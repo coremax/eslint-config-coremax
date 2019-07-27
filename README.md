@@ -1,6 +1,6 @@
 # eslint-config-coremax
 
-ESLint rules to bring a level of consistency to the various CoreMAX projects!
+This package provides CoreMAX .eslintrc as an extensible shared config.
 
 ## Installation
 
