@@ -1,6 +1,6 @@
 {
   "name": "@coremax/eslint-config-coremax",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This package provides CoreMAX .eslintrc as an extensible shared config.",
   "main": "index.js",
   "repository": {
