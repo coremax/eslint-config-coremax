@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-coremax",
+  "name": "@coremax/eslint-config-coremax",
   "version": "0.0.1",
   "description": "ESLint rules to bring a level of consistency to the various CoreMAX projects!",
   "main": "index.js",
