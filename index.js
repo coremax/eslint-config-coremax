@@ -19,7 +19,6 @@ module.exports = {
     {
       files: ['*.js'],
       parser: 'babel-eslint',
-      // plugins: ['flowtype'],
       rules: {}
     },
     {
@@ -34,8 +33,7 @@ module.exports = {
         '**/__{mocks,tests}__/**/*.{js,ts,tsx}'
       ],
       env: {
-        jest: true,
-        'jest/globals': true
+        jest: true
       }
     }
   ],
