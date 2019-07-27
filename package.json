@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-coremax",
+  "version": "0.0.1",
+  "description": "ESLint rules to bring a level of consistency to the various CoreMAX projects!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coremax/eslint-config-coremax"
+  },
+  "author": "Nidelson Gimenes <nidelson@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "bugs": {
+    "url": "https://github.com/coremax/eslint-config-coremax/issues"
+  },
+  "homepage": "https://github.com/coremax/eslint-config-coremax#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "babel-eslint": "^10.0.2",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
