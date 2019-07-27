@@ -7,9 +7,9 @@ module.exports = {
     sourceType: 'module'
   },
 
-  extends: ['standard'],
+  extends: ['standard', 'standard-react', 'prettier'],
 
-  plugins: ['standard'],
+  plugins: ['standard', 'prettier'],
 
   settings: {
     react: {}
@@ -40,5 +40,7 @@ module.exports = {
 
   globals: {},
 
-  rules: {}
-};
+  rules: {
+    'comma-dangle': 'off'
+  }
+}

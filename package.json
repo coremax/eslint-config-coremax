@@ -1,7 +1,7 @@
 {
   "name": "@coremax/eslint-config-coremax",
   "version": "0.0.3",
-  "description": "ESLint rules to bring a level of consistency to the various CoreMAX projects!",
+  "description": "This package provides CoreMAX .eslintrc as an extensible shared config.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -22,22 +22,27 @@
   },
   "homepage": "https://github.com/coremax/eslint-config-coremax#readme",
   "scripts": {
+    "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
-    "babel-eslint": "^10.0.2",
-    "eslint-config-standard": "^13.0.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint": ">=5"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-config-standard-react": "^8.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.18.2"
   }
 }
